@@ -29,6 +29,8 @@ public class Person {
             System.out.println("Добовляем новый телефон для " + name);
             phones.add(phoneNumber);
             amountPhones++;
+        } else {
+            System.out.println("Такой телефон уже есть " + name);
         }
     }
 }
